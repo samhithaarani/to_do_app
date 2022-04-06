@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '7z)4tk#n@(q8%=&jys1kn55*-1b56p
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['samhithatodo.herokuapp.com/','127.0.0.1:8000/viewtodo']
+ALLOWED_HOSTS = ['samhithatodo.herokuapp.com','127.0.0.1:8000/viewtodo']
 
 
 # Application definition
